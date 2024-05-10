@@ -1,0 +1,86 @@
+USERMGMT(1)                 General Commands Manual                USERMGMT(1)
+
+NAME
+       usermgmt - a simple user management system in a Unix environment
+
+SYNOPSIS
+       usermgmt
+
+DESCRIPTION
+       The usermgmt program provides a simple command-line interface for
+       managing users and groups in a Unix-like environment. It allows users
+       to add, delete, and modify user accounts, as well as manage user
+       groups. The program interacts with the system using system commands.
+
+COMMANDS
+       The following commands are available in usermgmt:
+
+       1. Add user
+          Adds a new user to the system.
+
+       2. Delete user
+          Deletes an existing user from the system.
+
+       3. Add group
+          Adds a new group to the system.
+
+       4. Delete group
+          Deletes an existing group from the system.
+
+       5. Change user info
+          Allows users to modify user information, such as username, home
+          directory, or shell.
+
+       6. Change account info
+          Allows users to modify account information, such as password,
+          password expiration, or account expiration.
+
+       7. Assign user to group
+          Assigns a user to a specific group.
+
+       8. List all users
+          Lists all users currently registered on the system.
+
+       9. List all groups
+          Lists all groups currently available on the system.
+
+       10. Exit
+           Exits the usermgmt program.
+
+EXAMPLES
+       To add a new user, run:
+           usermgmt
+           Enter your choice: 1
+           Enter username: newuser
+
+SEE ALSO
+       useradd(8), usermod(8), userdel(8), groupadd(8), groupdel(8),
+       passwd(1), chage(1)  
+       
+       * Section 8: System administration commands.
+       * Section 1: Executable programs or shell commands.
+
+AUTHOR
+       Written by Akram Gamal, Anas Alamir, Anas Osama, Adam Yasser, Eslam Samir, Shahd Salah.
+
+REPORTING BUGS
+       Report bugs to akramgamal.ag@gmail.com
+
+COPYRIGHT
+       This program is free software: you can redistribute it and/or modify
+       it under the terms of the GNU General Public License as published by
+       the Free Software Foundation, either version 3 of the License, or
+       (at your option) any later version.
+
+       This program is distributed in the hope that it will be useful,
+       but WITHOUT ANY WARRANTY; without even the implied warranty of
+       MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+       GNU General Public License for more details.
+
+       You should have received a copy of the GNU General Public License
+       along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+VERSION
+       This manual page documents usermgmt version 1.0.
+
+
